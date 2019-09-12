@@ -43,26 +43,3 @@ class Board {
     return this.board[row][col];
   }
 }
-
-class Character{
-  constructor(title){
-    this.title = title;
-
-    this.health = object[this.title].health;
-    
-  }
-}
-
-let object = {
-  solidier: {
-    health: 100,
-    movement: 3,
-    attack: 2
-  },
-
-  mage: {
-    health: 50,
-    movement: 4,
-    attack: 3
-  }
-}
